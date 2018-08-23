@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macromedia-extension 
+	id="EXTENSIONID"
+	name="EXTENSIONNAME" 
+	requires-restart="true"
+	version="1.0.0">
+ 
+	<author name="NAME"/>
+ 
+	<description>
+		<![CDATA[PSD]]>
+	</description>
+ 
+	 <ui-access>
+		<![CDATA[Downloaded to user's Download folder]]>
+	</ui-access>
+ 
+	<license-agreement>
+		<![CDATA[Here goes the EULA]]>
+	</license-agreement>
+ 
+	<products>
+		<product familyname="Illustrator" version="13"/>
+	</products>
+ 
+	<files>
+		<file source="AIP/"
+			  destination="$presets/test"
+			  file-type="ordinary"
+			  products="Illustrator"
+			  minVersion="14.0" />
+		<file source="Fonts/"
+			  destination="$plugin"
+			  file-type="ordinary"
+			  products="Illustrator"
+			  minVersion="14.0" />
+	</files>
+</macromedia-extension>
