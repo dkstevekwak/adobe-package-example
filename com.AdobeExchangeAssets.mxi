@@ -20,19 +20,14 @@
 	</license-agreement>
  
 	<products>
-		<product familyname="Illustrator" version="13"/>
+		<product platform="mac" familyname="Illustrator" version="13"/>
 	</products>
  
 	<files>
-		<file source="AIP/"
-			  destination="$presets/test"
-			  file-type="ordinary"
-			  products="Illustrator"
-			  minVersion="14.0" />
-		<file source="Fonts/"
-			  destination="$plugin"
-			  file-type="ordinary"
-			  products="Illustrator"
+		<file source="ZXP/com.exchange.psd.zxp"
+			  destination=""
+			  file-type="CSXS"
+			  platform="mac"
 			  minVersion="14.0" />
 	</files>
 </macromedia-extension>
